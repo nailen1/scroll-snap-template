@@ -6,6 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 .body {
   /* width: 100%;
@@ -14,13 +15,13 @@
 }
 header {
   position: fixed;
-  height: fit-content;
   width: 100%;
+  padding: 4px;
   /* width: calc(100% - 15px); */
   /* SCROLL BAR UNCOVERED BY THIS MANIPULATED WIDTH */
   background: black;
   color: white;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
   z-index: 1;
 }
 @media (max-width: 850px) {
@@ -41,13 +42,11 @@ header div {
 }
 .item {
   scroll-snap-align: center;
-  /* background-color: orange; */
-  /* opacity: 0.9; */
   width: 100%;
   height: 100vh;
   display: flex;
   gap: 6px;
-  padding-top: 3vh;
+  /* padding-top: 0rem; */
   /* padding; 10vh; */
   justify-content: center;
   align-items: center;
@@ -65,7 +64,7 @@ header div {
 #page-1 .title {
   font-size: 1rem;
   width: calc(100vw * 0.8);
-  padding: 5px 10px;
+  padding: 5px 5%;
   color: white;
   background: black;
   /* border: 1px dashed red; */
@@ -108,15 +107,18 @@ header div {
     object-fit: contain;
   }
 }
-/* img {
-    object-fit: fill;
-} */
 .footer-btn {
   position: absolute;
-  bottom: calc(-100vh * var(--i) + 2vh);
+  bottom: calc(-100vh * var(--i) + 6vh);
   right: 2vh;
   /* border: 1px dashed red; */
   transition: 0.5s;
+}
+.footer-btn a {
+  font-size: 0.6rem;
+}
+.footer-btn a i {
+  font-size: 0.6rem;
 }
 .footer-btn:hover {
   letter-spacing: 1px;
