@@ -109,7 +109,7 @@ header div {
 }
 .footer-btn {
   position: absolute;
-  bottom: calc(-100vh * var(--i) + 6vh);
+  bottom: calc(-100vh * var(--i) + 10vh);
   right: 2vh;
   /* border: 1px dashed red; */
   transition: 0.5s;
