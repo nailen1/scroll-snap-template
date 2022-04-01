@@ -54,7 +54,7 @@ header div {
   align-items: center;
 }
 .item:nth-child(odd) {
-  background-color: gray;
+  background-color: lightgrey;
 }
 .item:nth-child(even) {
   background-color: white;
@@ -164,5 +164,5 @@ header div {
 #page-4 .footer-btn a,
 #page-2 .footer-btn a {
   text-decoration: none;
-  color: gray;
+  color: lightgray;
 }
